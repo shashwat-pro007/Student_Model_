@@ -1,4 +1,4 @@
-# Student Performance Data Handling and Analysis System using Pandas
+# Student Performance Data Handling and Analysis System 
 
 ## Project Overview
 
@@ -105,6 +105,65 @@ Generated files are stored inside the output folder:
 - Modular Python programming.
 
 ---
+
+
+
+
+# 🎓 Student Marks Prediction App
+
+A simple Machine Learning web application built with **Streamlit** that predicts a student's marks based on their **study hours** and **attendance percentage**.
+
+## Features
+
+* Predicts marks using a trained **Linear Regression** model.
+* Interactive and user-friendly Streamlit interface.
+* Fast predictions with a pre-trained `.pkl` model.
+* No separate frontend or backend required.
+
+## Tech Stack
+
+* Python
+* Streamlit
+* Scikit-learn
+* NumPy
+* Joblib
+
+## Project Structure
+
+```text
+MarksPrediction/
+│── app.py
+│── marks_prediction_model.pkl
+│── requirements.txt
+│── README.md
+```
+
+## Installation
+
+1. Clone the repository.
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the application:
+
+```bash
+streamlit run app.py
+```
+
+The app will open in your browser at `http://localhost:8501`.
+
+## How It Works
+
+1. Enter the student's study hours.
+2. Select the attendance percentage.
+3. Click **Predict Marks**.
+4. The application uses the trained Linear Regression model to estimate the student's marks.
+
+
+
 
 
 
